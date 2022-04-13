@@ -1,0 +1,27 @@
+"""Remove items from list
+list1 = [54, 44, 27, 79, 91, 41]
+Out
+List After removing element at index 4  [34, 54, 67, 89, 43, 94]
+List after Adding element at index 2  [34, 54, 11, 67, 89, 43, 94]
+List after Adding element at last  [34, 54, 11, 67, 89, 43, 94, 11]
+"""
+class modif_y:                                                  #creating class
+    def __init__(self,sample_list):                             #constructor
+        self.sample_list=sample_list
+
+    def modiify(self,sample_list):                              #function declaration
+        print("list ", sample_list)
+        i = sample_list.pop(4)                                  # delete element from list of index 4
+        print("After removing element at index 4      ", sample_list)
+
+        sample_list.insert(2, 16)                               # Add element in list at index 2
+        print("List after Adding element at index 2   ", sample_list)
+
+        sample_list.append(37)                                  # add element in list at last
+
+        print("List after Adding element at last      ", sample_list)
+
+sample_list = [34, 54, 67, 89, 11, 43, 94]
+obj=modif_y(sample_list)                                        #creating object
+obj.modiify(sample_list)
+
