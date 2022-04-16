@@ -8,11 +8,11 @@ The farmer has counted his animals and he gives you a subtotal for each species.
 
 
 
-def total_legs(ch,co,pi):
+def total_legs(ch,co,pi):                                                                               #Function declaration
     chickens_legs = chickens_num * 2
     cows_legs = cows_num * 4
     pigs_legs = pigs_num * 4
-    total_leg= chickens_legs + cows_legs + pigs_legs
+    total_leg= chickens_legs + cows_legs + pigs_legs                                                    #calculate total number legs of animals
     return total_leg
 chickens_num=int(input('Enter the  number of chickens in farm'))
 cows_num=int(input('Enter the  number of cows in farm'))
