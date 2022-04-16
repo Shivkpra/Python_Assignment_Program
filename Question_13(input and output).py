@@ -5,6 +5,6 @@ a=int(input("Enter the number"))
 b=int(string)
 c=str(a)
 print(b)
-print(type(b))
+print(type(b))                         #type of c is printed
 print(c)
-print(type(c))
+print(type(c))                         #type of d is printed
