@@ -4,11 +4,11 @@ wins get 3 points
 draws get 1 point
 losses get 0 points'''
 
-def Points(win: object, draw: object, loss: object) -> object:
+def Points(win: object, draw: object, loss: object) -> object:                   #function declarations
     wins=win*3
     draws=draw*1
     losses=0
-    points=wins+draws+losses
+    points=wins+draws+losses                                                     #calculate the total points of team
     return points
 win=int(input('Enter the  number of win'))
 draw=int(input('Enter the  number of draws'))
