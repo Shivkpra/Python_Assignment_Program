@@ -6,7 +6,7 @@ class coversion:                                             # creating class
 
 
   def type_conversion( self,string):                         # function declaration
-      print(int(string))                     # Return a String as an Integer
+      print(int(string))                                     # Return a String as an Integer
                 # convert the string in integer
       print(type(int(string)))                               #print the type of string
 
